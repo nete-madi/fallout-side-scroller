@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do8mr4s0kfobu"
+path="res://.godot/imported/Clement Panchout _ Jelly Blob _ 2017.wav-97ebaa5f27427dd62fb02a8e998a5115.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Clement Panchout _ Jelly Blob _ 2017.wav"
+dest_files=["res://.godot/imported/Clement Panchout _ Jelly Blob _ 2017.wav-97ebaa5f27427dd62fb02a8e998a5115.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

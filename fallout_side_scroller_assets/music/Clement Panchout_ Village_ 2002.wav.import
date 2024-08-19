@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://baq47aipxfb4q"
+path="res://.godot/imported/Clement Panchout_ Village_ 2002.wav-400de328715d8549894ea60e52bec529.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Clement Panchout_ Village_ 2002.wav"
+dest_files=["res://.godot/imported/Clement Panchout_ Village_ 2002.wav-400de328715d8549894ea60e52bec529.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

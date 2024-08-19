@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://djuol1re88l0u"
+path="res://.godot/imported/Time Flies _Clement Panchout _2016.wav-46cbf762510b3d14879541440ad0e110.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Time Flies _Clement Panchout _2016.wav"
+dest_files=["res://.godot/imported/Time Flies _Clement Panchout _2016.wav-46cbf762510b3d14879541440ad0e110.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

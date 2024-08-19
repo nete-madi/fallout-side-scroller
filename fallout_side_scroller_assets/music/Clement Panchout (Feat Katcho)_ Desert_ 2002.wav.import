@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dke6x0yu3541w"
+path="res://.godot/imported/Clement Panchout (Feat Katcho)_ Desert_ 2002.wav-33c3a04fcf88216302e76f5320475501.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Clement Panchout (Feat Katcho)_ Desert_ 2002.wav"
+dest_files=["res://.godot/imported/Clement Panchout (Feat Katcho)_ Desert_ 2002.wav-33c3a04fcf88216302e76f5320475501.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

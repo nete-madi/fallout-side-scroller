@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpcvcg60h0dw7"
+path="res://.godot/imported/Jump 1.wav-23db80ec27060d10b9e57359f23775c7.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/sound effects/Jump 1.wav"
+dest_files=["res://.godot/imported/Jump 1.wav-23db80ec27060d10b9e57359f23775c7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

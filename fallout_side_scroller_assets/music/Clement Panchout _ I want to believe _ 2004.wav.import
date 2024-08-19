@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3gsbwmhx1jdf"
+path="res://.godot/imported/Clement Panchout _ I want to believe _ 2004.wav-864b0f9ef6fd4c7c05da798b33e8eed9.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Clement Panchout _ I want to believe _ 2004.wav"
+dest_files=["res://.godot/imported/Clement Panchout _ I want to believe _ 2004.wav-864b0f9ef6fd4c7c05da798b33e8eed9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

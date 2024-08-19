@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bt7cp64gcjihg"
+path="res://.godot/imported/Suck 2.wav-374ab24f3740b9fec91459cf3ae9e68b.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/sound effects/Suck 2.wav"
+dest_files=["res://.godot/imported/Suck 2.wav-374ab24f3740b9fec91459cf3ae9e68b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

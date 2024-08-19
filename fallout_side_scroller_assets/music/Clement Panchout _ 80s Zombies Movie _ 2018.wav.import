@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://beny78trfixgr"
+path="res://.godot/imported/Clement Panchout _ 80s Zombies Movie _ 2018.wav-3fd4d739576f91f43026db3156a55076.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Clement Panchout _ 80s Zombies Movie _ 2018.wav"
+dest_files=["res://.godot/imported/Clement Panchout _ 80s Zombies Movie _ 2018.wav-3fd4d739576f91f43026db3156a55076.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

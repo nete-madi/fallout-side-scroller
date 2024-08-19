@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://p4i3btra7d5e"
+path="res://.godot/imported/Blow 1V2.mp3-75ef05530ba0de1b8da317d8ff23d6cc.mp3str"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/sound effects/Blow 1V2.mp3"
+dest_files=["res://.godot/imported/Blow 1V2.mp3-75ef05530ba0de1b8da317d8ff23d6cc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

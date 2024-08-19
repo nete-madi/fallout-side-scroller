@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b11v7wxytbkwg"
+path="res://.godot/imported/Clement Panchout (feat Katcho)_ Gothic Picture_ 2002.wav-6b5c104ef1f9b18a1dfb747239485225.sample"
+
+[deps]
+
+source_file="res://fallout_side_scroller_assets/music/Clement Panchout (feat Katcho)_ Gothic Picture_ 2002.wav"
+dest_files=["res://.godot/imported/Clement Panchout (feat Katcho)_ Gothic Picture_ 2002.wav-6b5c104ef1f9b18a1dfb747239485225.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

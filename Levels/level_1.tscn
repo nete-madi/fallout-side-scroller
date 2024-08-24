@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=4 uid="uid://dpameoe17macq"]
+[gd_scene load_steps=8 format=4 uid="uid://dpameoe17macq"]
 
 [ext_resource type="Texture2D" uid="uid://c12fhfmmd36u7" path="res://fallout_side_scroller_assets/Wasteland_Sky.png" id="1_n1uhu"]
 [ext_resource type="Texture2D" uid="uid://x4e37w48f33g" path="res://fallout_side_scroller_assets/Wasteland_Mountains_1.png" id="2_fgpj4"]
@@ -102,11 +102,40 @@ texture = ExtResource("3_x75ca")
 physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_pivy0")
 
+[sub_resource type="GDScript" id="GDScript_416sw"]
+script/source = "extends Camera2D
+
+@export var lerp_smoothing := 10.0
+@export var camera_speed := 25
+var world_rect: Rect2i
+
+@export var world_tile_map: TileMapLayer:
+	get():
+		if not world_tile_map.is_node_ready():
+			await world_tile_map.ready
+		return world_tile_map
+
+func _ready() -> void:
+	world_rect = world_tile_map.get_used_rect()
+	var x_axis_size = ProjectSettings.get_setting(\"display/window/size/viewport_width\")
+	var y_axis_size = ProjectSettings.get_setting(\"display/window/size/viewport_height\")
+	world_rect = world_rect.grow_individual(-x_axis_size/2, -y_axis_size/2, -x_axis_size/2, -y_axis_size/2)
+
+func _process(delta: float) -> void:
+	var movement_vec := Input.get_vector(\"left\", \"right\", \"jump\", \"jump\")
+	
+	if not movement_vec == Vector2.ZERO:
+		var target_pos := global_position + movement_vec * camera_speed
+		
+		if world_rect.abs().has_point(target_pos):
+			global_position = global_position.lerp(target_pos, 1.0 - exp(-delta * lerp_smoothing))
+"
+
 [node name="Level1" type="Node2D"]
 
 [node name="WastelandSky" type="Sprite2D" parent="."]
-position = Vector2(607.5, 324)
-scale = Vector2(2.36914, 2.53125)
+position = Vector2(570.062, 304)
+scale = Vector2(2.51538, 2.6875)
 texture = ExtResource("1_n1uhu")
 metadata/_edit_lock_ = true
 
@@ -123,4 +152,9 @@ tile_set = SubResource("TileSet_64547")
 
 [node name="MysteriousStranger" parent="." instance=ExtResource("4_5px0h")]
 position = Vector2(-27, 432)
-move_speed = 250.0
+
+[node name="Camera2D" type="Camera2D" parent="MysteriousStranger" node_paths=PackedStringArray("world_tile_map")]
+offset = Vector2(300, 0)
+zoom = Vector2(2, 2)
+script = SubResource("GDScript_416sw")
+world_tile_map = NodePath("../../Platforms")
